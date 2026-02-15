@@ -1,3 +1,15 @@
-pastebin links full of code to share to myself:
-https://pastebin.com/raw/T6Y2frpU
-https://pastebin.com/raw/zinNgN0R
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            #idselector {
+                background-color: lightblue;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>David Robert Joseph Beckham</h1>
+        <p id="idselector">He is a former English professional footballer.</p>
+        <p id="another">He has played for Manchester United, Preston North End, Real Madrid, Milan, LA Galaxy, Paris Saint-Germain, and the England national team.</p>
+    </body>
+</html>
