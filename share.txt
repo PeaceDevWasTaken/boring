@@ -1,85 +1,22 @@
-@font-face {
-    font-family: oregonfont;
-    src: url("oregon book.ttf");
-}
-article {
-    padding: 10px;
-}
-body {
-    font-family: oregonfont;
-    font-size: 85%;
-    border-style: solid;
-    border-width: 5px;
-    border-color: #d8d8d8;
-}
-footer {
-    font-size: 80%;
-    text-align: center;
-    clear: both;
-    border-top-style: solid;
-    border-top-width: 5px;
-    border-top-color: #d8d8d8;
-    margin-top: 0;
-    padding: 0;
-}
-header {
-    border-bottom-style: solid;
-    border-bottom-width: 5px;
-    border-bottom-color: #d8d8d8;
-}
-section {
-    background: url(globe.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-.floatright {
-    float: right;
-    clear: right;
-    margin: 10px;
-}
-.searchbox {
-    text-align: right;
-}
-#drop-menu {
-    width: 150px;
-    cursor: pointer;
-    display: block;
-    border: 2px solid #a1a1a1;
-    padding: 5px;
-    height: 20px;
-    max-height: 20px;
-    background: #add8e6;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #888888;
-    font-family: oregonfont;
-    font-weight: bold;
-    font-size: 85%;
-    color: #0000a0;
-}
-#drop-menu:hover {
-    border: 3px solid #bababa;
-}
-#drop-menu:hover .sub-menu {
-    display: inline-block;
-}
-.sub-menu {
-    display: none;
-    width: 150px;
-    padding: 5px 5px;
-    border-radius: 5px;
-    box-shadow: 5px 5px 5px #888888;
-    -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    -moz-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-}
-.sub-menu li {
-    list-style-type: none;
-    display: block;
-    border: 2px solid #add8e6;
-    padding: 2px 5px;
-    background: #d8d8d8;
-    border-radius: 5px;
-}
-.sub-menu li:hover {
-    border: 3px solid #bababa;
-}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>CSS3 Selectors</title>
+        <style>
+            h2 ~ p {
+                font-style: italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Heading 1</h1>
+        <p>
+            The paragraph text following Heading 1 is not affected by the CSS3 h2~p selector.
+        </p>
+        <h2>Heading 2</h2>
+        <p>
+            The paragraph text following Heading 2 is affected and italicized by the CSS3 h2~p selector.
+        </p>
+    </body>
+</html>
