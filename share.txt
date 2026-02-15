@@ -2,14 +2,17 @@
 <html>
     <head>
         <style>
-            #idselector {
-                background-color: lightblue;
+            .css {
+                font-style: bold;
+                color: #000;
+                background-color: #e70790;
             }
         </style>
     </head>
     <body>
-        <h1>David Robert Joseph Beckham</h1>
-        <p id="idselector">He is a former English professional footballer.</p>
-        <p id="another">He has played for Manchester United, Preston North End, Real Madrid, Milan, LA Galaxy, Paris Saint-Germain, and the England national team.</p>
+        <h2 class="css">To be or not to be, that is the question.</h2>
+        <p>
+            'To be or not to be' is probably the best-known line from all drama. Certainly, if anyone is asked to quote a line of Shakespeare then this is the one that first comes to mind for most people. It is from Shakespeare's play Hamlet, 1602 (Shakespeare's actual title is - The tragedie of Hamlet, Prince of Denmarke)
+        </p>
     </body>
 </html>
